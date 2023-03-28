@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #593937;
+}
+
+body {
+  background-color: #e9c698;
+  width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: var(--primary-color);
+}
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin: 20px;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+a:hover {
+  transform: scale(1.2);
+}
